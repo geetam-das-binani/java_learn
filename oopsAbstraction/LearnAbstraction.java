@@ -17,7 +17,7 @@ abstract class Vehicle {
     abstract int brakes(int wheels); // * no body */
 
 
-    void honks(){
+     void honks(){    //*concrete  method called non-abstarct class 
         System.out.println("Vehicle honks");
     }
 
