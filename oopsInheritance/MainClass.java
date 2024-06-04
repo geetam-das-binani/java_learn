@@ -1,4 +1,4 @@
-package oops;
+package oopsInheritance;
 
 public class MainClass {
     public static void main(String[] args) {

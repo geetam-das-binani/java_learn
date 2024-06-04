@@ -1,8 +1,12 @@
-package oops;
+package oopsInheritance;
 
 public class Car extends Vehicle {
     String color;
 
+
+    // !  void accelerate(){  final method cannot be used
+    //  !   System.out.println("Vehicle accelerated");
+    // !}
     void start() { // * method overriding
         Scooter scooterObj = new Scooter();
         scooterObj.breaking(this);
@@ -14,6 +18,8 @@ public class Car extends Vehicle {
         // System.out.println(this.wheeelsCount);
         // System.out.println(this.color);
     }
+
+  
 
     Car breaking() {
         return this;
@@ -34,6 +40,7 @@ public class Car extends Vehicle {
         obj.start();
         System.out.println(obj.wheeelsCount);
         System.out.println(obj.breaking());
+        
 
     }
 

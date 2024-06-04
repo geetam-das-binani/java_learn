@@ -1,4 +1,4 @@
-package oops;
+package oopsInheritance;
 
 public class Constructors {
     public static void main(String[] args) {
