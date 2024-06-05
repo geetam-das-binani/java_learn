@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Strings {
     public static void main(String[] args) {
-        String name = "Anuj Kumar Sharma Anuj";
+        String name = "Anuj";
         String sameName = "Anuj";
         String newName = new String("Anuj");
 

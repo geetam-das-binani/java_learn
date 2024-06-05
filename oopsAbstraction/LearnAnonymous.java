@@ -1,6 +1,11 @@
 package oopsAbstraction;
 
 public class LearnAnonymous {
+
+
+    public static  void start(){
+        System.out.println("hello");
+    }
     public static void main(String[] args) {
         OuterClass obj = new OuterClass() { // * anonymous class
 
@@ -26,7 +31,7 @@ public class LearnAnonymous {
         };
 
         Walkable obj4 = (int steps) -> {
-
+           start();
             System.out.println("walked " + steps + " steps");
             return steps + 6;
 
