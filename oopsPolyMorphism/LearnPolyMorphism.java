@@ -1,5 +1,7 @@
 package oopsPolyMorphism;
 
+import java.util.*;
+
 //**  / polymorphism is the ability of an object to take many forms.
 //**poly means many
 //**morph means forms
@@ -28,6 +30,10 @@ class ChildData extends Data {
 }
 
 public class LearnPolyMorphism {
+
+
+    List<Integer> l1=new ArrayList<>();
+    Queue<Integer> l2=new LinkedList<>();
     public static void main(String[] args) {
         Data d = new ChildData();
         d.printData(); // *method overriding is called runtime polymorphism
